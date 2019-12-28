@@ -1,0 +1,31 @@
+{
+  "name": "learning-redux-ch2-2",
+  "version": "1.0.0",
+  "description": "Chapter 2, Unit 2",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "babel-node src"
+  },
+  "contributors": [
+    {
+      "name": "Alex Banks",
+      "email": "alex@moonhighway.com",
+      "url": "http://www.moonhighway.com"
+    },
+    {
+      "name": "Tromgy",
+      "email": "tromgy@yahoo.com",
+      "url": "https://github.com/tromgy"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tromgy/learning-redux-course-files/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7"
+  }
+}

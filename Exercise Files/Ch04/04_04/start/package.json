@@ -1,0 +1,29 @@
+{
+  "name": "learning-redux-ch4-3",
+  "version": "1.0.0",
+  "description": "Chapter 4, Unit 4: Simple Express server to serve ski resort names.",
+  "scripts": {
+    "suggestions": "node ./server --port 3333 --delay 500"
+  },
+  "contributors": [
+    {
+      "name": "Alex Banks",
+      "email": "alex@moonhighway.com",
+      "url": "http://www.moonhighway.com"
+    },
+    {
+      "name": "Tromgy",
+      "email": "tromgy@yahoo.com",
+      "url": "https://github.com/tromgy"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tromgy/learning-redux-course-files/issues"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "minimist": "^1.2.0"
+  }
+}

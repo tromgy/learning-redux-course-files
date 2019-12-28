@@ -1,0 +1,37 @@
+{
+  "name": "learning-redux-ch3-2",
+  "version": "1.0.0",
+  "description": "Chapter 3, Unit 2",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "contributors": [
+    {
+      "name": "Alex Banks",
+      "email": "alex@moonhighway.com",
+      "url": "http://www.moonhighway.com"
+    },
+    {
+      "name": "Tromgy",
+      "email": "tromgy@yahoo.com",
+      "url": "https://github.com/tromgy"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tromgy/learning-redux-course-files/issues"
+  },
+  "dependencies": {
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}

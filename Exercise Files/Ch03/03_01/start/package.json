@@ -1,0 +1,33 @@
+{
+  "name": "learning-redux-ch3-1",
+  "version": "1.0.0",
+  "description": "Chapter 3, Unit 1",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "babel-node src"
+  },
+  "contributors": [
+    {
+      "name": "Alex Banks",
+      "email": "alex@moonhighway.com",
+      "url": "http://www.moonhighway.com"
+    },
+    {
+      "name": "Tromgy",
+      "email": "tromgy@yahoo.com",
+      "url": "https://github.com/tromgy"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tromgy/learning-redux-course-files/issues"
+  },
+  "dependencies": {
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7"
+  }
+}

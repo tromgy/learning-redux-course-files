@@ -1,0 +1,72 @@
+{
+  "name": "ski-day-counter-redux",
+  "version": "1.1.0",
+  "description": "A sample application for Learning Redux the basics.",
+  "main": "./dist",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "suggestions": "node ./server --port 3333 --delay 500"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tromgy/learning-redux-course-files.git"
+  },
+  "keywords": [
+    "activity",
+    "counter",
+    "ski",
+    "day",
+    "tutorial",
+    "redux"
+  ],
+  "contributors": [
+    {
+      "name": "Alex Banks",
+      "email": "alex@moonhighway.com",
+      "url": "http://www.moonhighway.com"
+    },
+    {
+      "name": "Tromgy",
+      "email": "tromgy@yahoo.com",
+      "url": "https://github.com/tromgy"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tromgy/learning-redux-course-files/issues"
+  },
+  "homepage": "https://github.com/MoonTahoe/ski-day-counter-redux#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "isomorphic-fetch": "^2.2.1",
+    "minimist": "^1.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-icons": "^3.8.0",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.0",
+    "node-sass": "^4.13.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-flexbugs-fixes": "^4.1.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-normalize": "^8.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "resolve-url-loader": "^3.1.1",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.1.1",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
